@@ -1,6 +1,6 @@
 FROM php:8.2-fpm
 
-COPY ./php.ini /etc/php/conf.d/php-custom.ini
+COPY ./php.ini /usr/local/etc/php/conf.d/php-custom.ini
 
 WORKDIR /data
 
